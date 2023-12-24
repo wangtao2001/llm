@@ -2,6 +2,10 @@
 
 ### 基础模型
 
+GPT2
+
+LLama2
+
 ### 微调对齐
 
 <div align="center">
