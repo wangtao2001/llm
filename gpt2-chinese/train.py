@@ -48,14 +48,14 @@ args = TrainingArguments(
     per_device_train_batch_size=16,
     per_device_eval_batch_size=16,
     evaluation_strategy='steps',
-    eval_steps=1000,
+    eval_steps=500,
     gradient_accumulation_steps=8,
-    num_train_epochs=1,
+    num_train_epochs=2,
     weight_decay=0.1,
     warmup_steps=1000,
     lr_scheduler_type='cosine',
     learning_rate=5e-4,
-    save_steps=2000,
+    save_steps=500,
     fp16=True
 )
 
